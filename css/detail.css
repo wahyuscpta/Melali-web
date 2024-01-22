@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-detail{
+    padding: 100px 0px;
+    padding-bottom: 50px;
+}
+
+.img-detail img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.title-detail{
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.title-detail i{
+    margin-right: 10px;
+}
+
+.rate-detail{
+    display: flex;
+    float: right;
+    margin-top: 50px;
+}
+
+.rate-detail i{
+    margin: 5px;
+    color: #FCE205;
+}
+
+.rate-detail p{
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.detail{
+    margin: 15px 10px;
+}
+
+.detail i{
+    color: #1680AC;
+    margin-right: 15px;
+}
+
+.detail p{
+    margin-left: 35px;
+    line-height: 1.7;
+    margin-top: 10px;
+}
+
+.bg-detail hr{
+    background-color: #777;
+    margin: 50px 10px;
+}
+
+.text-detail hr{
+    width: 95%;
+}
+
+.text-detail p{
+    line-height: 1.7;
+}
+
+.bayar{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bayar::before{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    bottom: 130px;
+    left: -10px;
+    border-radius: 50px;
+}
+
+.bayar::after{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    bottom: 130px;
+    right: -10px;
+    border-radius: 50px;
+}
+
+.dashed-line {
+    position: absolute;
+    bottom: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    border: 1px dashed #777;
+}
+
+.bayar p{
+    font-size: 14px;
+}
+
+.diskon .disc{
+    font-size: 14px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2px 10px;
+    background-color: #1680AC;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.trip-code{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.trip-code h2{
+    margin-bottom: 3px;
+}
+
+.harga{
+    margin-top: 40px;
+}
+
+.harga p{
+    margin: 0px;
+}
+
+.btn-bayar{
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #1680AC;
+    padding: 15px;
+}
+
+.btn-bayar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg-popular{
+    margin-top: 150px !important;
+}
+
+.title-popular h2{
+    margin-left: 0px !important;
+}
+
+.popular{
+    margin: 0px !important;
+}
+
+.bg-footer{
+    margin-top: 150px !important;
+    padding-top: 20px !important;
+}
+
+.text-down{
+    display: none;
+}
+
+.text-down p{
+    line-height: 1.7;
+}
+
+@media(max-width: 991.98px){
+
+}
+
+@media(max-width: 767.98px){
+    .text-down{
+        margin-top: 50px !important;
+        display: block;
+    }
+
+    .text-up{
+        display: none;
+    }
+}
+
+@media(max-width: 575.98px){
+
+}
+
+@media (min-width: 1440px){
+
+}
+
+@media (min-width: 1700px){
+    .bg-footer{
+        margin-top: 200px;
+    }
+
+    .footer li, p{
+        font-size: 20px;
+    }
+
+    .footer h3{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1920px){
+    .bg-footer{
+        margin-top: 200px;
+    }
+
+    .footer li, p{
+        font-size: 20px;
+    }
+
+    .footer h3{
+        font-size: 24px;
+    }
+}

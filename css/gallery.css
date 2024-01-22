@@ -1,0 +1,21 @@
+.bg-gallery{
+    padding-top: 150px;
+}
+
+.image-container{
+  margin-top: 100px;
+  columns: 3 250px;
+  gap: 15px;
+}
+
+.image-container img{
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: .7s;
+}
+
+.image-container img:hover{
+  transform: scale(1.1);
+}
